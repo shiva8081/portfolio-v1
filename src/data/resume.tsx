@@ -89,38 +89,7 @@ export const DATA = {
         // },
     ],
     projects: [
-        {
-            title: "Feedback Testimonial",
-            href: "https://testimonial.yshplsngh.in",
-            dates: "Sep 2024 - Oct 2024",
-            active: true,
-            description: "Web app for collecting and embedding customer testimonials. And it allows easy integration of testimonials widget into website.",
-            technologies: [
-                "React",
-                "Redux",
-                "Typescript",
-                "Node.js",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Docker",
-                "Redis"
-            ],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://testimonial.yshplsngh.in",
-                    icon: <Icons.globe className="size-3"/>,
-                },
-                {
-                    type: "Source",
-                    href: "https://github.com/yshplsngh/Feedback-Testimonial",
-                    icon: <Icons.github className="size-3"/>,
-                },
-            ],
-            image: "/testi.png",
-            video:"",
-        },
+        
         {
             title: "Chat App",
             href: "https://github.com/shiva8081/chat-app",
@@ -151,39 +120,33 @@ export const DATA = {
             image: "/shop-mart.png",
             video: "",
         },
-        // {
-        //     title: "llm.report",
-        //     href: "https://llm.report",
-        //     dates: "April 2023 - September 2023",
-        //     active: true,
-        //     description:
-        //         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-        //     technologies: [
-        //         "Next.js",
-        //         "Typescript",
-        //         "PostgreSQL",
-        //         "Prisma",
-        //         "TailwindCSS",
-        //         "Shadcn UI",
-        //         "Magic UI",
-        //         "Stripe",
-        //         "Cloudflare Workers",
-        //     ],
-        //     links: [
-        //         {
-        //             type: "Website",
-        //             href: "https://llm.report",
-        //             icon: <Icons.globe className="size-3"/>,
-        //         },
-        //         {
-        //             type: "Source",
-        //             href: "https://github.com/dillionverma/llm.report",
-        //             icon: <Icons.github className="size-3"/>,
-        //         },
-        //     ],
-        //     image: "",
-        //     video: "",
-        // }
+        {
+            title: "Blog Site - Blog Making App",
+            href: "https://github.com/shiva8081/blog-app",
+            dates: "Jan 2024 - Mar 2024",
+            active: true,
+            description:
+                "A Blogging Platform with secure custom authentication using JWT, refresh token rotation, and efficient blog caching powered by RTK Query.",
+            technologies: [
+                "React",
+                "RTK-Query",
+                "Typescript",
+                "Node.js",
+                "MongoDB",
+                "TailwindCSS",
+                "JWT"
+            ],
+            links: [
+                {
+                    type: "Source",
+                    href: "https://github.com/shiva8081/blog-app",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/blog.jpeg",
+            video: "",
+        }
+       
     ],
     hackathons: [
         // {
