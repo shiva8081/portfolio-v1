@@ -106,11 +106,11 @@ export const DATA = {
                 "socket.io"
             ],
             links: [
-                // {
-                //     type: "Website",
-                //     href: "https://magicui.design",
-                //     icon: <Icons.globe className="size-3"/>,
-                // },
+                {
+                    type: "Website",
+                    href: "https://chat.shivayadav.in",
+                    icon: <Icons.globe className="size-3"/>,
+                },
                 {
                     type: "Source",
                     href: "https://github.com/shiva8081/chat-app",
