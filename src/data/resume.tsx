@@ -117,7 +117,7 @@ export const DATA = {
                     icon: <Icons.github className="size-3"/>,
                 },
             ],
-            image: "/shop-mart.png",
+            image: "/chat-app",
             video: "",
         },
         {
