@@ -121,6 +121,36 @@ export const DATA = {
             video: "",
         },
         {
+            title: "AI Assistant",
+            href: "https://github.com/shiva8081/AIAssistant",
+            dates: "October 2024 - March 2024",
+            active: true,
+            description:
+                "A messaging platform that enables real-time text communication between users in a simple and efficient interface, the application features essential chat functionalities, including message composition, message history display, and user presence indicators to show who's online. ",
+            technologies: [
+                "React",
+                "javascript",
+                "Node.js",
+                "MongoDB",
+                "TailwindCSS",
+                "socket.io"
+            ],
+            links: [
+                {
+                    type: "Website",
+                    href: "https://ai.shivayadav.in",
+                    icon: <Icons.globe className="size-3"/>,
+                },
+                {
+                    type: "Source",
+                    href: "https://github.com/shiva8081/chat-app",
+                    icon: <Icons.github className="size-3"/>,
+                },
+            ],
+            image: "/aiassistance.jpg",
+            video: "",
+        },
+        {
             title: "Blog Site - Blog Making App",
             href: "https://github.com/shiva8081/blog-app",
             dates: "Jan 2024 - Mar 2024",
