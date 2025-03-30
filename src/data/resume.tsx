@@ -126,14 +126,19 @@ export const DATA = {
       dates: "October 2024 - March 2024",
       active: true,
       description:
-        "A messaging platform that enables real-time text communication between users in a simple and efficient interface, the application features essential chat functionalities, including message composition, message history display, and user presence indicators to show who's online. ",
+        "An AI-powered document analysis and social media content generation platform that combines PDF interaction with tweet creation. Users can upload PDFs to engage in intelligent conversations about their content and generate contextually relevant tweets. The application features Google Authentication, real-time PDF text extraction, smart chat capabilities, and customizable tweet generation with different tones. The platform provides a seamless interface for both document analysis and social media content creation.",
+
       technologies: [
         "React",
-        "javascript",
+        "TypeScript",
         "Node.js",
-        "MongoDB",
+        "PostgreSQL",
+        "Prisma ORM",
         "TailwindCSS",
-        "socket.io",
+        "Google Gemini AI",
+        "Express.js",
+        "Passport.js",
+        "PDF.js",
       ],
       links: [
         {
@@ -143,7 +148,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/shiva8081/chat-app",
+          href: "https://github.com/shiva8081/AIAssistant",
           icon: <Icons.github className="size-3" />,
         },
       ],
