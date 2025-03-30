@@ -138,7 +138,7 @@ export const DATA = {
         "Google Gemini AI",
         "Express.js",
         "Passport.js",
-        "PDF.js",
+        
       ],
       links: [
         {
